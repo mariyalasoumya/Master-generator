@@ -1,0 +1,7 @@
+onboardingemployee\crudoperations\Repository\EmployeeRepository.class
+onboardingemployee\crudoperations\CrudoperationsApplication.class
+onboardingemployee\crudoperations\model\Employee.class
+onboardingemployee\crudoperations\exception\ErrorDetails.class
+onboardingemployee\crudoperations\exception\GlobalExceptionHandler.class
+onboardingemployee\crudoperations\exception\ResourceNotFoundException.class
+onboardingemployee\crudoperations\controller\EmployeeController.class
