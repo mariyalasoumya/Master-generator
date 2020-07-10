@@ -3,7 +3,6 @@ package onboardingemployee.crudoperations.Repository;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 
 import onboardingemployee.crudoperations.model.Employee;
@@ -23,6 +22,6 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long>
 
 	Optional<Employee> findByAddress(String string);
 
-     Employee deleteById(int id);
+    Employee deleteById(int id);
 
 }
