@@ -15,12 +15,11 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
-	@NotNull
+
 	private String firstName;
-	@NotNull
 	private String lastName;
 	
-	@NotBlank
+
 	private String emailId;
 
 	private String address;
